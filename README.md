@@ -19,4 +19,11 @@ Support Wyze and Xiaomi Fang Cams
 
 Congratulations! Welcome to OpenIPC.
 
+RTSP: 
+rtsp://ipaddress/unicast
+
+SSH:
+root/ismart12
+
+
 Thanks to samtap for fanghacks used as the base for OpenIPC. Thanks to joeand37 for inspiration. Thanks to the various other developers on the fanghacks page who cross-compiled some of the binaries.
