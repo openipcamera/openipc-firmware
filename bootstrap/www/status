@@ -7,7 +7,7 @@ cat << EOF
 <!DOCTYPE html>
 <html>
 <head>
-<title>Fang Hacks</title>
+<title>OpenIPC</title>
 <style type="text/css">
 body { background-color: #B0E0E6; font-family: verdana, sans-serif; }
 .err { color: red; }
@@ -20,12 +20,7 @@ button, input[type=submit] { background-color: #ddeaff; }
 </head>
 <body>
 <div style="font-family: monospace, fixed; font-weight: bold;">
-<span style=";color:#55f">____</span><span>&#160;&#160;</span><span style=";color:#55f">__.__</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#00a">________</span><span style=";color:#aaa">___</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
-<span style=";color:#55f">\</span><span>&#160;&#160;&#160;</span><span style=";color:#55f">\/</span><span>&#160;&#160;</span><span style=";color:#00a">|_______</span><span>&#160;&#160;&#160;&#160;</span><span style=";color:#00a">____</span><span style=";color:#aaa">\_</span><span>&#160;&#160;&#160;</span><span style=";color:#aaa">__________</span><span>&#160;&#160;&#160;&#160;</span><span style=";color:#555">____</span><span>&#160;&#160;&#160;</span><span style=";color:#555">____</span><span>&#160;&#160;</span><br />
-<span>&#160;</span><span style=";color:#00a">\</span><span>&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#00a">/|</span><span>&#160;&#160;</span><span style=";color:#00a">\__</span><span>&#160;&#160;</span><span style=";color:#aaa">\</span><span>&#160;&#160;</span><span style=";color:#aaa">/</span><span>&#160;&#160;</span><span style=";color:#aaa">_</span><span>&#160;</span><span style=";color:#aaa">\|</span><span>&#160;&#160;&#160;&#160;</span><span style=";color:#aaa">__</span><span style=";color:#555">)</span><span>&#160;</span><span style=";color:#555">\__</span><span>&#160;&#160;</span><span style=";color:#555">\</span><span>&#160;&#160;</span><span style=";color:#555">/</span><span>&#160;&#160;&#160;&#160;</span><span style=";color:#555">\</span><span>&#160;</span><span style=";color:#55f">/</span><span>&#160;</span><span style=";color:#55f">___\</span><span>&#160;</span><br />
-<span>&#160;</span><span style=";color:#00a">/</span><span>&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#00a">\</span><span style=";color:#aaa">|</span><span>&#160;&#160;</span><span style=";color:#aaa">|/</span><span>&#160;</span><span style=";color:#aaa">__</span><span>&#160;</span><span style=";color:#aaa">\(</span><span>&#160;&#160;</span><span style=";color:#aaa">&lt;_&gt;</span><span>&#160;</span><span style=";color:#555">|</span><span>&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#555">\</span><span>&#160;&#160;&#160;</span><span style=";color:#555">/</span><span>&#160;</span><span style=";color:#555">__</span><span>&#160;</span><span style=";color:#55f">\|</span><span>&#160;&#160;&#160;</span><span style=";color:#55f">|</span><span>&#160;&#160;</span><span style=";color:#55f">/</span><span>&#160;</span><span style=";color:#55f">/_/</span><span>&#160;&#160;</span><span style=";color:#55f">&gt;</span><br />
-<span style=";color:#aaa">/___/\</span><span>&#160;&#160;</span><span style=";color:#aaa">|__(____</span><span>&#160;&#160;</span><span style=";color:#555">/\____/\___</span><span>&#160;&#160;</span><span style=";color:#555">/</span><span>&#160;&#160;</span><span style=";color:#55f">(____</span><span>&#160;&#160;</span><span style=";color:#55f">|___|</span><span>&#160;&#160;</span><span style=";color:#00a">\___</span><span>&#160;&#160;</span><span style=";color:#00a">/</span><span>&#160;</span><br />
-<span>&#160;&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#aaa">\_</span><span style=";color:#555">/</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#555">\/</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#55f">\/</span><span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#55f">\</span><span style=";color:#00a">/</span><span>&#160;&#160;&#160;&#160;&#160;</span><span style=";color:#00a">\/_____/</span><span>&#160;&#160;</span><br />
+
 </div>
 <div style="font-family: monospace, fixed; font-weight: bold;">
 <span><pre style="display:inline">                                              OpenIPC Version 0.2.2</pre></span>
