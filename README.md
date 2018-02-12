@@ -7,7 +7,7 @@ Version 0.2.2
 https://openip.cam
 
 
-#OpenIPC Install#
+OpenIPC Install
 
 Support Wyze and Xiaomi Fang Cams any firmware
 
@@ -56,13 +56,18 @@ root/ismart12
 
 
 
+CHANGELOG:
+Version 0.2.3
+    - Added Audio on RTSP control to Web interface
+    - Updated README for more clear instructions
+
 Thanks to samtap for fanghacks used as the base for OpenIPC. Thanks to joeand37 for inspiration. Thanks to the various other developers on the fanghacks page who cross-compiled some of the binaries.
 
 
 Notable Changes from fang-hacks
 
--Roadmap for OpenIPC Fork
--Wifi setip via SDcard script
--Includes downgrade firmware
--Audio removed as default option
--Includes rtsp scanner and openipc scanner
+    - Roadmap for OpenIPC Fork
+    - Wifi setip via SDcard script
+    - Includes downgrade firmware
+    - Audio removed as default option
+    - Includes rtsp scanner and openipc scanner
