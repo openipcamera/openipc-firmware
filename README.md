@@ -1,15 +1,10 @@
-OpenIPC
+    - OpenIPC
 
-February 12th, 2018
+    - February 12th, 2018
 
-Version 0.2.2
+    - Version 0.2.3
 
-https://openip.cam
-
-
-OpenIPC Install
-
-Support Wyze and Xiaomi Fang Cams any firmware
+    - https://openip.cam
 
 
 Installation Instructions:
@@ -44,16 +39,10 @@ NOTE: of you get a 404 error with a flashing blue led, Remove the sdcard and rei
 
 Congratulations! Welcome to OpenIPC.
 
+Connection Details:
 
-RTSP:
-
-rtsp://ipaddress/unicast
-
-
-SSH:
-
-root/ismart12
-
+    - RTSP: rtsp://ipaddress/unicast Port 554
+    - SSH: root/ismart12 Port 22
 
 
 CHANGELOG:
@@ -68,7 +57,7 @@ Thanks to samtap for fanghacks used as the base for OpenIPC. Thanks to joeand37 
 Notable Changes from fang-hacks
 
     - Roadmap for OpenIPC Fork
-    - Wifi setip via SDcard script
+    - Wifi setup via SDcard script
     - Includes downgrade firmware
-    - Audio removed as default option
+    - Audio on RTSP as a toggle option
     - Includes rtsp scanner and openipc scanner
