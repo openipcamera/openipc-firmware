@@ -39,18 +39,20 @@ NOTE: of you get a 404 error with a flashing blue led, Remove the sdcard and rei
 
 Congratulations! Welcome to OpenIPC.
 
-Connection Details:
+### Connection Details: ###
 
     - RTSP: rtsp://[discoveredipaddress]/unicast Port 554
     - SSH: root/ismart12 Port 22
 
 
-CHANGELOG:
-Version 0.2.3
+### CHANGELOG: ###
+#### Version 0.2.3 ####
 
     - Added Audio on RTSP control to Web interface
     - Updated README for more clear instructions
 
+
+#### Contributions: ####
 Thanks to [samtap](https://github.com/samtap/) for [fanghacks](https://github.com/samtap/fanghacks) used as the base for OpenIPC. Thanks to [joeand37](https://github.com/joeand37) for inspiration. Thanks to the various other developers on the fanghacks page who cross-compiled some of the binaries.
 
 Notable Changes from fang-hacks
