@@ -58,6 +58,7 @@ root/ismart12
 
 CHANGELOG:
 Version 0.2.3
+
     - Added Audio on RTSP control to Web interface
     - Updated README for more clear instructions
 
