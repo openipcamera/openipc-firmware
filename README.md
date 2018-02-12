@@ -53,6 +53,15 @@ Congratulations! Welcome to OpenIPC.
 
 
 #### Contributions: ####
+
+    - BTC: 3ByqQ73Sd6ykMm4JBzr4qoUt9Twtsm2ZBu
+
+    - LTC: LLgajqD8QMfib58RDHu141sZy4qdJ9skRu
+
+    - LSK: 7678123823745141779L
+
+    - XMR: 45mwzBGAXqMPTZDCKPq1ySEbGiKUJohWd3FyeC1HqqBag33eXUeVsKuC65ZJ9ttEenSyTHf7kzRvCSoUtvx3sqkoJPVNRKg
+
 Thanks to [samtap](https://github.com/samtap/) for [fanghacks](https://github.com/samtap/fanghacks) used as the base for OpenIPC. Thanks to [joeand37](https://github.com/joeand37) for inspiration. Thanks to the various other developers on the fanghacks page who cross-compiled some of the binaries.
 
 Notable Changes from fang-hacks
