@@ -1,10 +1,10 @@
 ## OpenIPC Install ##    
 
-    - February 12th, 2018
+#### February 12th, 2018 ####
 
-    - Version 0.2.3
+#### Version 0.2.3
 
-    - https://openip.cam
+#### https://openip.cam ####
 
 
 ### Installation Instructions: ###
@@ -45,7 +45,7 @@ Congratulations! Welcome to OpenIPC.
     - SSH: root/ismart12 Port 22
 
 
-### CHANGELOG: ###
+### Changelog: ###
 #### Version 0.2.3 ####
 
     - Added Audio on RTSP control to Web interface
