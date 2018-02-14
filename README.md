@@ -7,6 +7,13 @@
 #### https://openip.cam ####
 
 
+### Full Disclosure ###
+
+    - OpenIPC is forked from fang-hacks and is based on a proprietary Xiaomi firmware (FIRMWARE_660R.bin) with implementations allowing the end user to take full control of their Wyze camera.
+    - At this time OpenIPC is not a 100% completely open source project as we rely upon the chinese base firmware at the moment to execute our payload (install method).
+    - We do not have intentions to rewrite low level boot code and drivers for this camera model, instead we provide end users the ability to mitigate risk by gaining full root control.
+    - Source code repositories for all added binaries will be added to the project shortly (snx_rtsp_server/dropbear). The inherent risk of a chinese base firmware can now be fully mitigated.
+
 ### Installation Instructions: ###
 
 
