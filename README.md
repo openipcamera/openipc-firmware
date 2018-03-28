@@ -1,8 +1,8 @@
 ## OpenIPC Install ##    
 
-#### February 12th, 2018 ####
+#### March 27th, 2018 ####
 
-#### Version 0.2.3
+#### Version 0.2.4
 
 #### https://openip.cam ####
 
@@ -19,7 +19,7 @@
 
 1. Download and install [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 
-2. Write the openipc_v0.2.3.img to your SDcard
+2. Write the openipc_v0.2.4.img to your SDcard
 
 3. Open the SDCard and edit the files .wifissid and .wifipasswd to match your network
 
@@ -60,10 +60,24 @@ Congratulations! Welcome to OpenIPC.
 ### Connection Details: ###
 
     - RTSP: rtsp://[discoveredipaddress]/unicast Port 554
-    - SSH: root/ismart12 Port 22
+    - SSH: root/openipcam Port 22
+
+
+### Revert to Wyze firmware ###
+
+    - https://www.wyzecam.com/forums/topic/flashing-your-wyzecam-v1-firmware/
 
 
 ### Changelog: ###
+
+#### Version 0.2.4 ####
+
+    - RTSP configuration page with settings for rotate, mirror, flip, resolution, etc.
+    - RTSP authentication is now possible
+    - Crontab watchdog to reboot RTSP script
+    - Revert to original Wyze firmware instructions
+
+
 #### Version 0.2.3 ####
 
     - Added Audio on RTSP control to Web interface
