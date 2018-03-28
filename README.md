@@ -50,7 +50,7 @@ Congratulations! Welcome to OpenIPC.
 
 1. Download and install [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 
-2. Write the openipc_v0.2.3.img to your SDcard
+2. Write the openipc_v0.2.4.img to your SDcard
 
 3. Open the SDCard and edit the files .wifissid and .wifipasswd to match your network
 
@@ -60,7 +60,13 @@ Congratulations! Welcome to OpenIPC.
 ### Connection Details: ###
 
     - RTSP: rtsp://[discoveredipaddress]/unicast Port 554
-    - SSH: root/openipcam Port 22
+    - SSH: root/openipcam Port 22 (earlier versions password is ismart12)
+
+### Scripts ###
+
+    - update.sh - takes Wyze IP as first argument (updates via scp)
+    - openipscan.sh - scans for openip.cam mac address with nmap
+
 
 
 ### Revert to Wyze firmware ###
@@ -76,6 +82,7 @@ Congratulations! Welcome to OpenIPC.
     - RTSP authentication is now possible
     - Crontab watchdog to reboot RTSP script
     - Revert to original Wyze firmware instructions
+    - SCP update script from shell to camera
 
 
 #### Version 0.2.3 ####
