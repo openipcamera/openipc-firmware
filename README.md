@@ -46,6 +46,11 @@ NOTE: of you get a 404 error with a flashing blue led, Remove the sdcard and rei
 
 Congratulations! Welcome to OpenIPC.
 
+### Upgrade existing OpenIPC install (script) ###
+
+1. Download or clone the repo and cd into it
+2. Run ./update.sh openipciphere
+
 ### Upgrade existing OpenIPC Install: ###
 
 1. Download and install [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
