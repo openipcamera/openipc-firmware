@@ -138,7 +138,9 @@ Congratulations! Welcome to OpenIPC.
 
     - XMR: 45mwzBGAXqMPTZDCKPq1ySEbGiKUJohWd3FyeC1HqqBag33eXUeVsKuC65ZJ9ttEenSyTHf7kzRvCSoUtvx3sqkoJPVNRKg
 
+Thanks to [EliasKotlyar](https://github.com/EliasKotlyar) for [Xiaomi-Dafang-Hacks](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks) and @Datbit128 for help building the Wyze V2 CFW. 
 Thanks to [samtap](https://github.com/samtap/) for [fanghacks](https://github.com/samtap/fanghacks) used as the base for OpenIPC. Thanks to [joeand37](https://github.com/joeand37) for inspiration. Thanks to the various other developers on the fanghacks page who cross-compiled some of the binaries.
+
 
 #### Notable Changes from fang-hacks ####
 
