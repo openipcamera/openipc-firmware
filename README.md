@@ -19,17 +19,21 @@
 
 This process only works for Wyze V2. There are no flashing LED or sound effects from V1.
 
-1. Set up Wifi in the SD card config folder wpa_supplicant.conf
+1. Download and install [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 
-2. Power off your camera, insert the SD card
+2. Write the openipc-v2_0.2.5.img to your SDcard
 
-3. Hold the setup button, plug in your USB cable, keep holding the setup button for 3-6 seconds
+3. Set up Wifi in the SD card config folder wpa_supplicant.conf
 
-4. Once the light is solid blue, release the button and wait for 3-4 minutes. The camera will reboot and change light status during this time.
+4. Power off your camera, insert the SD card
 
-5. The camera will appear on your network with a mac address similar to this: C8:02:8F:10:03:FA
+5. Hold the setup button, plug in your USB cable, keep holding the setup button for 3-6 seconds
 
-6. Username: dafang Password: ismart12
+6. Once the light is solid blue, release the button and wait for 3-4 minutes. The camera will reboot and change light status during this time.
+
+7. The camera will appear on your network with a mac address similar to this: C8:02:8F:10:03:FA
+
+8. Username: dafang Password: ismart12
 
 
 ### Known Issues: ###
