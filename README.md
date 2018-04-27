@@ -1,20 +1,42 @@
 ## OpenIPC Install ##    
 
-#### March 27th, 2018 ####
+#### April 27th, 2018 ####
 
-#### Version 0.2.4
+#### Version 0.2.5
 
 #### https://openip.cam ####
 
 
 ### Full Disclosure ###
 
-    - OpenIPC is forked from fang-hacks and is based on a proprietary Xiaomi firmware (FIRMWARE_660R.bin) with implementations allowing the end user to take full control of their Wyze camera.
+    - OpenIPC for Wyze V2 is forked from dafang-hacks and is based on a proprietary Wyze firmware (demo.bin) with implementations allowing the end user to take full control of their Wyze camera.
+    - OpenIPC for Wyze V1 is forked from fang-hacks and is based on a proprietary Xiaomi firmware (FIRMWARE_660R.bin) with implementations allowing the end user to take full control of their Wyze camera.
     - At this time OpenIPC is not a 100% completely open source project as we rely upon the chinese base firmware at the moment to execute our payload (install method).
     - We do not have intentions to rewrite low level boot code and drivers for this camera model, instead we provide end users the ability to mitigate risk by gaining full root control.
     - Source code repositories for all added binaries will be added to the project shortly (snx_rtsp_server/dropbear). The inherent risk of a chinese base firmware can now be fully mitigated.
 
-### Installation Instructions: ###
+### Installation Instructions Wyze V2: ###
+
+This process only works for Wyze V2. There are no flashing LED or sound effects from V1.
+
+1. Set up Wifi in the SD card config folder wpa_supplicant.conf
+
+2. Power off your camera, insert the SD card
+
+3. Hold the setup button, plug in your USB cable, keep holding the setup button for 3-6 seconds
+
+4. Once the light is solid blue, release the button and wait for 3-4 minutes. The camera will reboot and change light status during this time.
+
+5. The camera will appear on your network with a mac address similar to this: C8:02:8F:10:03:FA
+
+6. Username: dafang Password: ismart12
+
+
+### Known Issues: ###
+    - Full 1080p not supported. 1600x900 is maximum resolution.
+    - https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/issues
+
+### Installation Instructions Wyze V1: ###
 
 
 1. Download and install [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
@@ -81,7 +103,13 @@ Congratulations! Welcome to OpenIPC.
 
 ### Changelog: ###
 
-#### Version 0.2.4 ####
+#### Version 0.2.5 - Wyze V2 ####
+    - Support for Wyze V2. No longer supporting Wyze V1.
+    - HTML5 Web Interface
+    - Fork from dafang-hacks - https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks
+    - Support for Home Assistant, RTSP Authentication and MJPEG Streaming
+
+#### Version 0.2.4 - Wyze V1 ####
 
     - RTSP configuration page with settings for rotate, mirror, flip, resolution, etc.
     - RTSP authentication is now possible
