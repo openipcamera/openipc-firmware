@@ -33,7 +33,9 @@ This process only works for Wyze V2. There are no flashing LED or sound effects 
 
 7. The camera will appear on your network with a mac address similar to this: C8:02:8F:10:03:FA
 
-8. Username: dafang Password: ismart12
+8. To access the web interface, visit the camera's IP address in your browser (http://xxx.xxx.xxx.xxx). Username: dafang Password: ismart12
+
+9. RTSP stream (when enabled), rtsp://xxx.xxx.xxx.xxx:8554/unicast
 
 
 ### Known Issues: ###
