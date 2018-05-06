@@ -19,6 +19,9 @@ insmod /driver/sample_pwm_hal.ko
 insmod /driver/rtl8189ftv.ko
 ##insmod /system/sdcard/driver/sensor_jxf22.ko data_interface=2 pwdn_gpio=-1 res                                                                    et_gpio=18 sensor_gpio_func=0
 
+## Setup GPIO 25 to be writable, needed for ir-filter:
+echo out > "/sys/class/gpio/gpio25/direction"
+
 ## Start Wifi:
 wpa_supplicant -D nl80211 -iwlan0 -c $CONFIGPATH/wpa_supplicant.conf -B &
 sleep 5
