@@ -87,19 +87,19 @@ yellow_led(){
 ir_led(){
   case "$1" in
   on)
-    setgpio 49 0
+    setgpio 49 1
     ;;
   off)
-    setgpio 49 1
+    setgpio 49 0
     ;;
   status)
     status=$(getgpio 49)
     case $status in
       0)
-        echo "ON"
+        echo "OFF"
         ;;
       1)
-        echo "OFF"
+        echo "ON"
       ;;
     esac
   esac

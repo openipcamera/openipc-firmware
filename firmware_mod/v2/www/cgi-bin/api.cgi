@@ -173,11 +173,11 @@ if [ -n "$F_action" ]; then
     getReturn 1234 "success" "Yellow LED is Off."
     ;;
   ir_led_on)
-    setGpio 49 0
+    setGpio 49 1
     getReturn 1234 "success" "IR LED is On."
     ;;
   ir_led_off)
-    setGpio 49 1
+    setGpio 49 0
     getReturn 1234 "success" "IR LED is Off."
     ;;
   ir_cut_on)
