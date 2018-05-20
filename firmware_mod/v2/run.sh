@@ -21,7 +21,7 @@ insmod /driver/rtl8189ftv.ko
 
 ## Fix IR:
 echo 63 > /sys/class/gpio/export
-echo "out" > /sys/class/gpio/gpio63/direction
+echo out > /sys/class/gpio/gpio63/direction
 echo 1 > /sys/class/gpio/gpio63/value
 
 

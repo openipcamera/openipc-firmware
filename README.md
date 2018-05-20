@@ -1,8 +1,8 @@
 ## OpenIPC Install ##    
 
-#### April 27th, 2018 ####
+#### May 20th, 2018 ####
 
-#### Version 0.2.5
+#### Version 0.2.6
 
 #### https://openip.cam ####
 
