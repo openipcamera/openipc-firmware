@@ -69,11 +69,11 @@ if [ -n "$F_cmd" ]; then
     ;;
 
     ir_led_on)
-      setgpio 49 0
+      setgpio 49 1
     ;;
 
     ir_led_off)
-      setgpio 49 1
+      setgpio 49 0
     ;;
 
     ir_cut_on)
