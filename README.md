@@ -107,6 +107,10 @@ Congratulations! Welcome to OpenIPC.
 
 ### Changelog: ###
 
+#### Version 0.2.6 - Wyze All ####
+    - Combined sdcard image for Wyze V1 and V2.
+    - Fixed IR Support on Wyze V2..
+
 #### Version 0.2.5 - Wyze V2 ####
     - Support for Wyze V2. No longer supporting Wyze V1.
     - HTML5 Web Interface
