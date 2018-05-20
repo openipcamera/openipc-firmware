@@ -33,6 +33,7 @@ udhcpc -i wlan0 -p /var/run/udhcpc.pid -b -x hostname:"$(hostname)"
 
 ## NTP Server
 ntp_srv="$(cat "$CONFIGPATH/ntp_srv.conf")"
+/system/sdcard/bin/busybox ntpd -q -n -p "$ntp_srv" # run ntp update
 
 ## Start FTP & SSH
 /system/sdcard/bin/dropbearmulti dropbear -R
