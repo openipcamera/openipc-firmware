@@ -37,6 +37,7 @@ This process only works for Wyze V2. There are no flashing LED or sound effects 
 
 
 ### Known Issues: ###
+    - Auto Night Mode does not work due to Wyze V2 missing LDR chip
     - Full 1080p not supported. 1600x900 is maximum resolution.
     - https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/issues
 
