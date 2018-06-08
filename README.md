@@ -1,8 +1,8 @@
 ## OpenIPC Install ##    
 
-#### May 20th, 2018 ####
+#### June 8th, 2018 ####
 
-#### Version 0.2.6
+#### Version 0.2.6.1
 
 #### https://openip.cam ####
 
@@ -19,9 +19,9 @@
 
 This process only works for Wyze V2. There are no flashing LED or sound effects from V1.
 
-1. Download and install [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+1. Download this git repository.
 
-2. Write the openipc-v2_0.2.5.img to your SDcard
+2. Copy the contents of firmware_mod/v2/ to the root of your sdcard.
 
 3. Set up Wifi in the SD card config folder wpa_supplicant.conf
 
@@ -73,7 +73,21 @@ NOTE: of you get a 404 error with a flashing blue led, Remove the sdcard and rei
 
 Congratulations! Welcome to OpenIPC.
 
-### Upgrade existing OpenIPC install (script) ###
+
+### Repository Folder Stucture ###
+    - firmware_mod/ - openipc sdcard firmware root structure and files
+    - firmware_original/ - original wyzecam stock firmware
+    - releases/ - openipc modified wyzecam firmware bin files and v1 release image
+	- wyze-firmware-unpacker/ - tools to modify and extract wyzecam firmware
+	
+
+### Upgrade existing OpenIPC install V2 (script) ###
+
+1. Download or clone the repo
+2. Copy the contents of firmware_mod/v2/ to the root of your sdcard.
+3. Set up Wifi in the SD card config folder wpa_supplicant.conf
+
+### Upgrade existing OpenIPC install V1 (script) ###
 
 1. Download or clone the repo and cd into it
 2. Run ./update.sh openipciphere
@@ -107,6 +121,12 @@ Congratulations! Welcome to OpenIPC.
 
 
 ### Changelog: ###
+
+#### Version 0.2.6.1 - Wyze All ####
+	- Added stock firmware for wyzecamv2 and wyzecam pan.
+    - Removed built images for wyzecamv2.
+    - Added instructions on how to create proper installation sdcard for V2
+
 
 #### Version 0.2.6 - Wyze All ####
     - Combined sdcard image for Wyze V1 and V2.
