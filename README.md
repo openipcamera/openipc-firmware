@@ -62,7 +62,7 @@ This process only works for Wyze V2. There are no flashing LED or sound effects 
 7. Run openipscan.sh or openipscanwin.sh if you're on windows/mac and find the IP address of your new OpenIP Camera. Note: MAC address will be changed to c0:6d:1a*
 8. Proceed to the status web page and apply the hacks. http://[discoveredipaddress]/cgi-bin/status 
 
-NOTE: of you get a 404 error with a flashing blue LED, remove the SD card and reinsert it. Shortly after thst the camera will go "click click" again. Proceed to the link now.
+NOTE: If you get a 404 error with a flashing blue LED, remove the SD card and reinsert it. Shortly after thst the camera will go "click click" again. Proceed to the link now.
 
 Congratulations! Welcome to OpenIPC.
 
