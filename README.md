@@ -23,19 +23,22 @@ This process only works for Wyze V2. There are no flashing LED or sound effects 
 
 2. Copy the contents of firmware_mod/v2/ to the root of your sdcard.
 
-3. Set up Wifi in the SD card config folder wpa_supplicant.conf
+3. Set up Wifi in the SD card config folder : rename `wpa_supplicant.conf.dist` to `wpa_supplicant.conf`
 
-4. Power off your camera, insert the SD card
+4. Edit other `config/*.conf.dist` files and rename them to `config/*.conf`(without the ending ".dist").
 
-5. Hold the setup button, plug in your USB cable, keep holding the setup button for 3-6 seconds
+5. Power off your camera, insert the SD card
 
-6. Once the light is solid blue, release the button and wait for 3-4 minutes. The camera will reboot and change light status during this time.
+6. Hold the setup button, plug in your USB cable, keep holding the setup button for 3-6 seconds
 
-7. The camera will appear on your network with a mac address similar to this: C8:02:8F:10:03:FA
+7. Once the light is solid blue, release the button and wait for 3-4 minutes. The camera will reboot and change light status during this time.
 
-8. To access the web interface, visit the camera's IP address in your browser (http://xxx.xxx.xxx.xxx). Username: dafang Password: ismart12
+8. The camera will appear on your network with a mac address similar to this: C8:02:8F:10:03:FA
 
-9. RTSP stream (when enabled), rtsp://xxx.xxx.xxx.xxx:8554/unicast
+Notes :
+- To access the web interface, visit the camera's IP address in your browser (http://xxx.xxx.xxx.xxx). Username: dafang Password: ismart12
+
+- The RTSP stream (when enabled) is available at rtsp://xxx.xxx.xxx.xxx:8554/unicast
 
 
 ### Known Issues: ###
