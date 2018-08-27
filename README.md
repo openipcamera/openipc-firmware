@@ -116,10 +116,12 @@ Congratulations! Welcome to OpenIPC.
     - openipscan.sh - scans for openip.cam mac address with nmap
 
 
-
 ### Revert to Wyze firmware ###
 
+#### Wyze V1 ####
     - https://www.wyzecam.com/forums/topic/flashing-your-wyzecam-v1-firmware/
+#### Wyze V2 ####
+    - https://www.wyzecam.com/forums/topic/flashing-your-wyzecam-v2-firmware/
 
 
 ### Changelog: ###
