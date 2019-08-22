@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 import click
+import os
 
 
 @click.command()
@@ -15,6 +16,8 @@ def cli(inputfile):
     inputfile = click.format_filename(inputfile)
     fullflash = open(inputfile, 'rb')
     fullflash.seek(64)
+    if not os.path.exists("flash"):
+        os.mkdir("flash")
     for name, size in dic:
         filename = "flash/" + name + ".bin"
         buffer = fullflash.read(size)
