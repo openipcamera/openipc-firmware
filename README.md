@@ -23,7 +23,7 @@ This process only works for Wyze V2. There are no flashing LED or sound effects 
 
 2. Copy the contents of firmware_mod/v2/ to the root of your sdcard.
 
-3. Set up Wifi in the SD card config folder wpa_supplicant.conf
+3. Set up Wifi in the SD card config folder. Rename wpa_supplicant.conf.dist to wpa_supplicant.conf, then update the ssid and psk values.
 
 4. Power off your camera, insert the SD card
 
