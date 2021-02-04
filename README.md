@@ -119,7 +119,7 @@ Congratulations! Welcome to OpenIPC.
 
 ### Revert to Wyze firmware ###
 
-    - https://www.wyzecam.com/forums/topic/flashing-your-wyzecam-v1-firmware/
+    - https://wyzelabs.zendesk.com/hc/en-us/articles/360024852172-Release-Notes-Firmware
 
 
 ### Changelog: ###
